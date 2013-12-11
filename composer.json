@@ -1,0 +1,20 @@
+{
+    "name": "markwilson/symfony2-validator-fields-intersect-not-empty",
+    "description": "Constraint to check at least one of the keys exist in an array",
+    "require": {
+        "symfony/validator": "2.2.x"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Wilson",
+            "email": "mark@89allport.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MarkWilson\\": "lib/"
+        }
+    },
+    "minimum-stability": "dev"
+}

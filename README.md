@@ -16,7 +16,6 @@ e.g.
 
 ```` php
 use MarkWilson\Validator\Constraints\FieldsIntersectNotEmpty;
-use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Validation;
 
 $constraint = new FieldsIntersectNotEmpty(array('one', 'of', 'these', 'must', 'exist');
